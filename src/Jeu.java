@@ -5,6 +5,7 @@ public class Jeu {
 		// TODO Auto-generated method stub
 		System.out.println(args[0]);
 		System.out.println(args[1]);
+		System.out.println("truc");
 	}
 
 }
