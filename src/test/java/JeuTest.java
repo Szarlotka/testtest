@@ -1,10 +1,10 @@
-package test.java;
+
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-public class Jeu {
+public class JeuTest {
 
 /*	public static void main(String[] args) {
 		// TODO Auto-generated method stub
