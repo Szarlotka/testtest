@@ -4,6 +4,11 @@
 	<groupId>TestJenkins</groupId>
 	<artifactId>TestJenkins</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<properties>
+		<jenkins.e2eTests.reportsDirectory>target/protractor-reports</jenkins.e2eTests.reportsDirectory>
+	</properties>
+
+
 	<build>
 		<sourceDirectory>src/main/java/</sourceDirectory>
 		<testSourceDirectory>src/test/java/</testSourceDirectory>
@@ -26,6 +31,7 @@
 					<target>1.8</target>
 				</configuration>
 			</plugin>
+
 		</plugins>
 	</build>
 	<dependencies>
