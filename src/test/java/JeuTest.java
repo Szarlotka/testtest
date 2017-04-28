@@ -17,10 +17,10 @@ public class JeuTest {
 	}
 	*/
 	@Test()
-	public static void main(String[] args){
-//	public void jeutest(){
+//	public static void main(String[] args){
+	public void jeutest(String str){
 		//String str ="OK";
-		assertEquals("OK", args[0]);
+		assertEquals("OK", str);
 		System.out.println("tester");
 	}
 
