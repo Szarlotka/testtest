@@ -6,7 +6,7 @@ import org.junit.Test;
 
 public class JeuTest {
 
-/*	public static void main(String[] args) {
+	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
 		System.out.println(args[0]);
@@ -14,13 +14,13 @@ public class JeuTest {
 		System.out.println("truc");
 
 
-	}*/
-	
+	}
+	/*
 	@Test
 	public void jeutest(){
 		String str ="OK";
 		assertEquals("OK", str);
 		System.out.println("tester");
-	}
+	}*/
 
 }
