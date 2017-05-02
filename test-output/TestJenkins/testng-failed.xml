@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestJenkins]">
+  <test name="TestJenkins(failed)">
+    <parameter name="mot" value="$(env.str)"/>
+    <classes>
+      <class name="JeuTest">
+        <methods>
+          <include name="setup"/>
+          <include name="jeutest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- JeuTest -->
+    </classes>
+  </test> <!-- TestJenkins(failed) -->
+</suite> <!-- Failed suite [TestJenkins] -->

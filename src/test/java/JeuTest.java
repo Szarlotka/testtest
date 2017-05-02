@@ -1,8 +1,14 @@
+import org.testng.annotations.Test;
 
+import static org.testng.Assert.assertEquals;
 
-import static org.junit.Assert.assertEquals;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 
-import org.junit.Test;
+//import static org.junit.Assert.assertEquals;
+//import org.junit.Test;
 
 public class JeuTest {
 
@@ -16,11 +22,16 @@ public class JeuTest {
 
 	}
 	*/
-	@Test()
-//	public static void main(String[] args){
-	public void jeutest(String str){
-		//String str ="OK";
-		assertEquals("OK", str);
+	
+	@BeforeTest
+	public void setup (){
+		
+	}
+	
+	@Test
+	@Parameters({"mot"})
+	public void jeutest(String mot){
+		assertEquals("OK", mot);
 		System.out.println("tester");
 	}
 
