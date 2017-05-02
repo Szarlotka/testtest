@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-TestJenkins">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TestJenkins" title="JeuTest" hash-for-method="jeutest($(env.str))">jeutest($(env.str))</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-TestJenkins" title="JeuTest" hash-for-method="jeutest">jeutest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-TestJenkins -->
@@ -125,12 +125,11 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="jeutest($(env.str))">
-                  </a> <!-- jeutest($(env.str)) -->
+                  <a name="jeutest">
+                  </a> <!-- jeutest -->
                   <span class="method-name">jeutest</span>
-                  <span class="parameters">($(env.str))</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [$(env.str)] but found [OK]
-	at JeuTest.jeutest(JeuTest.java:34)
+                  <div class="stack-trace">java.lang.AssertionError: expected [OK] but found [null]
+	at JeuTest.jeutest(JeuTest.java:35)
 ... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -148,7 +147,6 @@
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;TestJenkins&quot;&gt;
   &lt;test name=&quot;TestJenkins&quot;&gt;
-    &lt;parameter name=&quot;mot&quot; value=&quot;$(env.str)&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;JeuTest&quot;/&gt;
     &lt;/classes&gt;
@@ -194,12 +192,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'jeutest')
 data.setCell(0, 2, 'JeuTest')
-data.setCell(0, 3, 0);
+data.setCell(0, 3, 17);
 window.suiteTableData['TestJenkins']= { tableData: data, tableDiv: 'times-div-TestJenkins'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 17 ms</span>
               <div id="times-div-TestJenkins">
               </div> <!-- times-div-TestJenkins -->
             </div> <!-- times-div -->
@@ -233,8 +231,8 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">jeutest($(env.str))</span>
-                <span class="method-start">31 ms</span>
+                <span class="method-name">jeutest</span>
+                <span class="method-start">28 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

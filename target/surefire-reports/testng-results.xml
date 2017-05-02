@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="JeuTest" duration-ms="41" started-at="2017-05-02T14:46:54Z" finished-at="2017-05-02T14:46:54Z">
+  <suite name="JeuTest" duration-ms="40" started-at="2017-05-02T15:13:17Z" finished-at="2017-05-02T15:13:17Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="41" started-at="2017-05-02T14:46:54Z" finished-at="2017-05-02T14:46:54Z">
+    <test name="Command line test" duration-ms="40" started-at="2017-05-02T15:13:17Z" finished-at="2017-05-02T15:13:17Z">
       <class name="JeuTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:JeuTest@6aaa5eb0]" name="setup" is-config="true" duration-ms="14" started-at="2017-05-02T16:46:54Z" finished-at="2017-05-02T16:46:54Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:JeuTest@6aaa5eb0]" name="setup" is-config="true" duration-ms="16" started-at="2017-05-02T17:13:17Z" finished-at="2017-05-02T17:13:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="jeutest()[pri:0, instance:JeuTest@6aaa5eb0]" name="jeutest" duration-ms="3" started-at="2017-05-02T16:46:54Z" finished-at="2017-05-02T16:46:54Z">
+        <test-method status="PASS" signature="jeutest()[pri:0, instance:JeuTest@6aaa5eb0]" name="jeutest" duration-ms="2" started-at="2017-05-02T17:13:17Z" finished-at="2017-05-02T17:13:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- jeutest -->
