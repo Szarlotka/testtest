@@ -32,7 +32,7 @@ public class JeuTest {
 	//	@Parameters({"mot"})
 	public void jeutest(/*String mot*/){
 		String mot = System.getProperty("str");
-		assertEquals("OK", mot);
+		assertEquals(mot, "OK");
 		System.out.println("tester");
 	}
 
