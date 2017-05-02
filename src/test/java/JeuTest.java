@@ -21,16 +21,17 @@ public class JeuTest {
 
 
 	}
-	*/
-	
+	 */
+
 	@BeforeTest
 	public void setup (){
-		
+
 	}
-	
+
 	@Test
-	@Parameters({"mot"})
-	public void jeutest(String mot){
+	//	@Parameters({"mot"})
+	public void jeutest(/*String mot*/){
+		String mot = System.getProperty("str");
 		assertEquals("OK", mot);
 		System.out.println("tester");
 	}

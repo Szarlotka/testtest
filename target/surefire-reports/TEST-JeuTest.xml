@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="C:\Users\UFTFormation\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3417494805554737942.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\UFTFormation\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8412023658333717695.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_101/bin/server;C:/Program Files/Java/jre1.8.0_101/bin;C:/Program Files/Java/jre1.8.0_101/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\wamp\bin\php\php5.5.12;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\logiciel\apache-maven-3.5.0\bin;C:\Users\UFTFormation\AppData\Roaming\Composer\vendor\bin;C:\Users\UFTFormation\AppData\Roaming\npm;C:\Users\UFTFormation\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -39,12 +39,13 @@
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="UTF-8"/>
+    <property name="str" value="OK"/>
     <property name="user.name" value="UFTFormation"/>
     <property name="java.class.path" value="/C:/Users/UFTFormation/eclipse/java-neon/eclipse/../../../.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_101\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B verify surefire-report:report"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean verify surefire-report:report -Dstr=OK"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="fr"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>

@@ -4,7 +4,7 @@
 <suite name="TestJenkins">
    <test name="TestJenkins">
    
-      <parameter name="mot" value="$(env.str)"/> 
+      <parameter name="mot" value="${env.STR}"/> 
       
       <classes>
          <class name="JeuTest" />
