@@ -49,6 +49,11 @@
 			<version>2.18</version>
 			<type>maven-plugin</type>
 		</dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.10</version>
+		</dependency>
 	</dependencies>
 	<reporting>
 		<plugins>
