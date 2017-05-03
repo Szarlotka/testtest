@@ -66,6 +66,8 @@ public class DataTest {
 		TestNG testNG = new TestNG();
 		testNG.setXmlSuites(suites);
 		testNG.run();
+		
+		System.out.println(suite.toXml());
 	}
 
 }
