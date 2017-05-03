@@ -7,6 +7,7 @@ import java.io.IOException;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
@@ -45,4 +46,8 @@ public class JeuTest {
 		System.out.println("test2");
 	}
 
+	@AfterTest
+	public void teardown(){
+		
+	}
 }
