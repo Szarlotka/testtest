@@ -46,10 +46,10 @@ public class DataTest {
 		suite.setName("testngxml");
 
 		List<XmlClass> classes = new ArrayList<XmlClass>();
-		classes.add(new XmlClass("test.java.Lancer"));
+		classes.add(new XmlClass("src.test.java.JeuTest"));
 
 		XmlTest test = new XmlTest(suite);
-		test.setName("Lancer");
+		test.setName("JeuTest");
 		test.setXmlClasses(classes);
 
 		List<XmlInclude> methods = new ArrayList<XmlInclude>();
