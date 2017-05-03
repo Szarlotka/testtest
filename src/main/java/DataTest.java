@@ -16,7 +16,7 @@ import org.testng.xml.XmlTest;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
-public class test {
+public class DataTest {
 
 	public void dataestToDo () throws InvalidFormatException, IOException{
 

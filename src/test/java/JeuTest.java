@@ -2,6 +2,9 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 
+import java.io.IOException;
+
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
@@ -24,8 +27,9 @@ public class JeuTest {
 	 */
 
 	@BeforeTest
-	public void setup (){
-
+	public void setup () throws InvalidFormatException, IOException{
+		DataTest data = new DataTest();
+		data.dataestToDo();
 	}
 
 	@Test(groups={"work"})
