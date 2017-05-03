@@ -2,26 +2,27 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="JeuTest" duration-ms="20353" started-at="2017-05-03T09:50:26Z" finished-at="2017-05-03T09:50:46Z">
+  <suite name="JeuTest" duration-ms="21" started-at="2017-05-03T11:43:01Z" finished-at="2017-05-03T11:43:01Z">
     <groups>
-      <group name="work">
-        <method signature="JeuTest.jeutest()[pri:0, instance:JeuTest@5056dfcb]" name="jeutest" class="JeuTest"/>
-      </group> <!-- work -->
     </groups>
-    <test name="Command line test" duration-ms="20353" started-at="2017-05-03T09:50:26Z" finished-at="2017-05-03T09:50:46Z">
+    <test name="Command line test" duration-ms="21" started-at="2017-05-03T11:43:01Z" finished-at="2017-05-03T11:43:01Z">
       <class name="JeuTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:JeuTest@5056dfcb]" name="setup" is-config="true" duration-ms="20349" started-at="2017-05-03T11:50:26Z" finished-at="2017-05-03T11:50:46Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:JeuTest@6574b225]" name="setup" is-config="true" duration-ms="773" started-at="2017-05-03T13:43:00Z" finished-at="2017-05-03T13:43:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="jeutest()[pri:0, instance:JeuTest@5056dfcb]" name="jeutest" duration-ms="1" started-at="2017-05-03T11:50:46Z" finished-at="2017-05-03T11:50:46Z">
+        <test-method status="PASS" signature="jeutest()[pri:0, instance:JeuTest@6574b225]" name="jeutest" duration-ms="2" started-at="2017-05-03T13:43:01Z" finished-at="2017-05-03T13:43:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- jeutest -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:JeuTest@5056dfcb]" name="test2" duration-ms="0" started-at="2017-05-03T11:50:46Z" finished-at="2017-05-03T11:50:46Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:JeuTest@6574b225]" name="test2" duration-ms="0" started-at="2017-05-03T13:43:01Z" finished-at="2017-05-03T13:43:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:JeuTest@6574b225]" name="teardown" is-config="true" duration-ms="0" started-at="2017-05-03T13:43:01Z" finished-at="2017-05-03T13:43:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
       </class> <!-- JeuTest -->
     </test> <!-- Command line test -->
   </suite> <!-- JeuTest -->

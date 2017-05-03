@@ -37,7 +37,7 @@ public class DataTest {
 			row = sheet.getRow(index);
 		}
 
-		//System.out.println(listetests);
+		System.out.println(listetests);
 
 		//creation du fichier xml
 
@@ -65,7 +65,7 @@ public class DataTest {
 
 		TestNG testNG = new TestNG();
 		testNG.setXmlSuites(suites);
-		testNG.run();
+//		testNG.run();
 		
 		System.out.println(suite.toXml());
 	}

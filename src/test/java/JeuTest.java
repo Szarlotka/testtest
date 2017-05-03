@@ -7,7 +7,9 @@ import java.io.IOException;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
@@ -27,13 +29,13 @@ public class JeuTest {
 	}
 	 */
 
-	@BeforeTest
+	@BeforeSuite
 	public void setup () throws InvalidFormatException, IOException{
 		DataTest data = new DataTest();
 		data.dataestToDo();
 	}
 
-	@Test(groups={"work"})
+	@Test
 	//	@Parameters({"mot"})
 	public void jeutest(/*String mot*/){
 		String mot = System.getProperty("str");
@@ -46,7 +48,7 @@ public class JeuTest {
 		System.out.println("test2");
 	}
 
-	@AfterTest
+	@AfterSuite
 	public void teardown(){
 		
 	}

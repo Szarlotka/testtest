@@ -59,7 +59,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="group-JeuTest">
-                    <span>1 group</span>
+                    <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -179,14 +179,6 @@
             <span class="header-content">Groups for JeuTest</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="test-group">
-              <span class="test-group-name">work</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">jeutest</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-JeuTest" class="panel">
@@ -207,7 +199,7 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'jeutest')
 data.setCell(0, 2, 'JeuTest')
-data.setCell(0, 3, 1);
+data.setCell(0, 3, 2);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'test2')
 data.setCell(1, 2, 'JeuTest')
@@ -216,7 +208,7 @@ window.suiteTableData['JeuTest']= { tableData: data, tableDiv: 'times-div-JeuTes
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 ms</span>
+              <span class="suite-total-time">Total running time: 2 ms</span>
               <div id="times-div-JeuTest">
               </div> <!-- times-div-JeuTest -->
             </div> <!-- times-div -->
@@ -243,18 +235,22 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">JeuTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
+              <div class="configuration-suite before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
+              </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">jeutest</span>
-                <span class="method-start">20350 ms</span>
+                <span class="method-start">789 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test2</span>
-                <span class="method-start">20351 ms</span>
+                <span class="method-start">792 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">861 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
