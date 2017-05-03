@@ -21,7 +21,7 @@ public class DataTest {
 	public void dataestToDo () throws InvalidFormatException, IOException{
 
 		// lecture du fichier excel et creation de la liste de tests qui est "include"
-		final File file = new File("${test}/data.xlsx");
+		final File file = new File("${WORKSPACE}/test/data.xlsx");
 		final Workbook workbook = WorkbookFactory.create(file);
 		final Sheet sheet = workbook.getSheet("Feuil1");
 
