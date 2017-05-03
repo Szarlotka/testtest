@@ -5,9 +5,7 @@
     <classes>
       <class name="JeuTest">
         <methods>
-          <include name="test2"/>
-          <include name="setup"/>
-          <include name="jeutest"/>
+          <include name="test3"/>
         </methods>
       </class> <!-- JeuTest -->
     </classes>

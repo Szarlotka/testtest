@@ -3,14 +3,15 @@
 
 <suite name="TestJenkins">
 	<test name="TestJenkins">
-		<!-- <parameter name="mot" value="${env.STR}"/> -->
-		<groups>
-			<run>
-				<exclude name="work"/>
-			</run>
-		</groups>
-	 	<classes>
-			<class name="JeuTest" />
-		</classes> 
+		<!-- <parameter name="mot" value="${env.STR}"/> <groups> <run> <exclude 
+			name="work"/> </run> </groups> -->
+		<classes>
+			<class name="Before">
+			<methods>
+				<include name="beforetest"/>
+			</methods>
+			</class>
+			
+		</classes>
 	</test>
 </suite>

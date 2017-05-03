@@ -21,13 +21,10 @@ public class JeuTest {
 	
 	@BeforeSuite
 	public void setup () throws InvalidFormatException, IOException{
-		DataTest data = new DataTest();
-		data.dataestToDo();
 	}
 
 	@Test
-	//	@Parameters({"mot"})
-	public void jeutest(/*String mot*/){
+	public void jeutest(){
 		String mot = System.getProperty("str");
 		assertEquals(mot, "OK");
 		System.out.println("test1");
@@ -50,9 +47,9 @@ public class JeuTest {
 		driver = new FirefoxDriver();
 		driver.get(baseUrl);
 	}
-
+/*
 	@AfterSuite
 	public void teardown(){
 
-	}
+	}*/
 }
