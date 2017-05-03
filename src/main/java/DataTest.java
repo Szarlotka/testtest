@@ -43,13 +43,13 @@ public class DataTest {
 
 
 		XmlSuite suite = new XmlSuite();
-		suite.setName("testngxml");
+		suite.setName("TestJenkins");
 
 		List<XmlClass> classes = new ArrayList<XmlClass>();
-		classes.add(new XmlClass("src.test.java.JeuTest"));
+		classes.add(new XmlClass("JeuTest"));
 
 		XmlTest test = new XmlTest(suite);
-		test.setName("JeuTest");
+		test.setName("TestJenkins");
 		test.setXmlClasses(classes);
 
 		List<XmlInclude> methods = new ArrayList<XmlInclude>();
