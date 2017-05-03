@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="TestJenkins" duration-ms="55" started-at="2017-05-02T15:13:07Z" finished-at="2017-05-02T15:13:08Z">
+  <suite name="Default suite" duration-ms="63" started-at="2017-05-03T08:23:05Z" finished-at="2017-05-03T08:23:05Z">
     <groups>
+      <group name="work">
+        <method signature="JeuTest.jeutest()[pri:0, instance:JeuTest@6a4f787b]" name="jeutest" class="JeuTest"/>
+      </group> <!-- work -->
     </groups>
-    <test name="TestJenkins" duration-ms="55" started-at="2017-05-02T15:13:07Z" finished-at="2017-05-02T15:13:08Z">
+    <test name="Default test" duration-ms="63" started-at="2017-05-03T08:23:05Z" finished-at="2017-05-03T08:23:05Z">
       <class name="JeuTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:JeuTest@6a4f787b]" name="setup" is-config="true" duration-ms="11" started-at="2017-05-02T17:13:08Z" finished-at="2017-05-02T17:13:08Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:JeuTest@6a4f787b]" name="setup" is-config="true" duration-ms="16" started-at="2017-05-03T10:23:05Z" finished-at="2017-05-03T10:23:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="jeutest()[pri:0, instance:JeuTest@6a4f787b]" name="jeutest" duration-ms="17" started-at="2017-05-02T17:13:08Z" finished-at="2017-05-02T17:13:08Z">
+        <test-method status="FAIL" signature="jeutest()[pri:0, instance:JeuTest@6a4f787b]" name="jeutest" duration-ms="16" started-at="2017-05-03T10:23:05Z" finished-at="2017-05-03T10:23:05Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [OK] but found [null]]]>
@@ -56,7 +59,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- jeutest -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:JeuTest@6a4f787b]" name="test2" duration-ms="16" started-at="2017-05-03T10:23:05Z" finished-at="2017-05-03T10:23:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
       </class> <!-- JeuTest -->
-    </test> <!-- TestJenkins -->
-  </suite> <!-- TestJenkins -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

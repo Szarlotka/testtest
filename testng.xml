@@ -2,13 +2,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="TestJenkins">
-   <test name="TestJenkins">
-   
-  <!--    <parameter name="mot" value="${env.STR}"/>  -->
-      
-      <classes>
-         <class name="JeuTest" />
-      </classes>
-      
-   </test>
+	<test name="TestJenkins">
+		<!-- <parameter name="mot" value="${env.STR}"/> -->
+		<groups>
+			<run>
+				<exclude name="work"/>
+			</run>
+		</groups>
+	 	<classes>
+			<class name="JeuTest" />
+		</classes> 
+	</test>
 </suite>

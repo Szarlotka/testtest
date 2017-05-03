@@ -28,12 +28,17 @@ public class JeuTest {
 
 	}
 
-	@Test
+	@Test(groups={"work"})
 	//	@Parameters({"mot"})
 	public void jeutest(/*String mot*/){
 		String mot = System.getProperty("str");
 		assertEquals(mot, "OK");
-		System.out.println("tester");
+		System.out.println("test1");
+	}
+	
+	@Test
+	public void test2 (){
+		System.out.println("test2");
 	}
 
 }
